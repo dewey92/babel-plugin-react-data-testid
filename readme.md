@@ -8,6 +8,10 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > babel plugin for react data-testid attributes
+> 
+## ⚠️ NOTE ⚠️
+
+A fork of [ailohq/babel-plugin-react-data-testid](https://github.com/ailohq/babel-plugin-react-data-testid) that contains the fix that rules out `React.Fragment` from being injected with `data-testid` attribute, as it at times makes our CI fails (invalid prop).
 
 ## Install
 

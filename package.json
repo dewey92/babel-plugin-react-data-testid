@@ -22,8 +22,7 @@
   },
   "scripts": {
     "prebuild": "del dest",
-    "build": "tsc",
-    "prepare": "npm run build && del dest/**/*.test.*",
+    "build": "tsc && del dest/**/*.test.*",
     "fmt": "prettier --write .",
     "lint": "eslint src/**/*.ts",
     "test": "jest",
